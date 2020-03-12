@@ -1,0 +1,34 @@
+body{
+	background-color: rgb(44, 43, 43);
+	text-align: center;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+hr{
+    
+	background-color: white;
+	width: 100%;
+    height: 5px;
+    margin: 40px;
+    justify-self: center;
+}
+textarea{
+    border: 2px solid white ;
+    margin: 20px; 
+    font-size: 15pt;
+}
+div{
+    font-size: 30pt;
+    color: white;
+}
+button{
+    font-size: 20pt;
+    display: inline-block;
+	width: 220px;
+    border: solid 4px rgb(113, 113, 224);
+	border-radius: 0.5em;
+	margin-bottom: auto;
+	padding: 20px 20px 20px 20px;
+	text-align: center;
+    transition: 0.5s;
+    justify-self: center;
+}

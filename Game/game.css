@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(44, 43, 43);
+    color: rgb(111, 145, 167);
+    font-size: 15pt;
+}
+#squares-container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#squares-layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    
+    border: 5px solid rgb(116, 116, 211);
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 5px solid rgb(116, 116, 211);
+}
+
+.red{
+    background-color: red; 
+}
+.blue{
+    background-color: blue; 
+}
+
+.green{
+    background-color: green; 
+}
